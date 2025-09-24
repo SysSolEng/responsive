@@ -1,0 +1,141 @@
+/*      
+Basic General Styling
+*/
+* {
+    box-sizing: border-box;
+}
+.metrics{
+    text-align: center;
+}
+.last-updated{
+    float: right;
+}
+.network-status, .stb-model, .vod-assets, .logs{
+    text-align: center;
+}
+.heading-block{
+    height: 10vh;
+    border: 1px solid black;
+}
+.data-block{
+    height: 55vh;
+    border: 1px solid black;
+}
+.log-block{
+    height: 10vh;
+    border: 1px solid black;
+}
+
+.other-info{
+    height: 23vh;
+    border: 1px solid black;
+}
+/*      
+Basic General Styling
+*/
+
+/*
+Rows and Columns Styling
+*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1{
+    width:8.33%;
+    border: 2px solid blue;
+        padding: 15px;
+        float: left;
+}
+.col-2{
+    width:16.66%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-3{
+    width:25%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-4{
+    width:33.33%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-5{
+    width:41.66%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-6{
+    width:50%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-7{
+    width:58.33%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-8{
+    width:66.66%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-9{
+    width:75%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-10{
+    width:83.33%;
+    border: 2px solid blue;
+        padding: 15px;
+         float: left;
+}
+.col-11{
+    width:91.66%;
+    border: 2px solid blue;
+    padding: 15px;
+     float: left;
+}
+.col-12{
+    width:100%;
+    border: 2px solid blue;
+    padding: 15px;
+     float: left;
+}
+/*
+Rows and Columns Styling
+*/
+
+/*
+For Mobile
+*/
+@media screen and (max-width: 900px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/*
+For Mobile
+*/
+
