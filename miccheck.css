@@ -3,7 +3,27 @@ Basic General Styling
 */
 * {
     box-sizing: border-box;
+    margin: 0;
 }
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .metrics{
     text-align: center;
 }
@@ -22,7 +42,7 @@ Basic General Styling
     border: 1px solid black;
 }
 .log-block{
-    height: 10vh;
+    height: 20vh;
     border: 1px solid black;
 }
 
@@ -30,9 +50,114 @@ Basic General Styling
     height: 23vh;
     border: 1px solid black;
 }
+
+select{
+    border: 1px solid black;
+    width: 80%;
+}
+
+.filters-btn{
+    border: 1px solid black;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btns{
+    border: 1px solid black;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 /*      
 Basic General Styling
 */
+
+
+
+/*
+Rows and Columns Styling for row1
+*/
+
+.col-1-row-1{
+    width:8.33%;
+    border: 2px solid red;
+        padding: 15px;
+        float: left;
+}
+.col-2-row-1{
+    width:16.66%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-3-row-1{
+    width:25%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-4-row-1{
+    width:33.33%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-5-row-1{
+    width:41.66%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-6-row-1{
+    width:50%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-7-row-1{
+    width:58.33%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-8-row-1{
+    width:66.66%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-9-row-1{
+    width:75%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-10-row-1{
+    width:83.33%;
+    border: 2px solid red;
+        padding: 15px;
+         float: left;
+}
+.col-11-row-1{
+    width:91.66%;
+    border: 2px solid red;
+    padding: 15px;
+     float: left;
+}
+.col-12-row-1{
+    width:100%;
+    border: 2px solid red;
+    padding: 15px;
+     float: left;
+}
+/*
+Rows and Columns Styling for row1
+*/
+
+
 
 /*
 Rows and Columns Styling
@@ -51,73 +176,73 @@ Rows and Columns Styling
 
 .col-1{
     width:8.33%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
         float: left;
 }
 .col-2{
     width:16.66%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-3{
     width:25%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-4{
     width:33.33%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-5{
     width:41.66%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-6{
     width:50%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-7{
     width:58.33%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-8{
     width:66.66%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-9{
     width:75%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-10{
     width:83.33%;
-    border: 2px solid blue;
+    border: 2px solid red;
         padding: 15px;
          float: left;
 }
 .col-11{
     width:91.66%;
-    border: 2px solid blue;
+    border: 2px solid red;
     padding: 15px;
      float: left;
 }
 .col-12{
     width:100%;
-    border: 2px solid blue;
+    border: 2px solid red;
     padding: 15px;
      float: left;
 }
@@ -128,12 +253,87 @@ Rows and Columns Styling
 /*
 For Mobile
 */
-@media screen and (max-width: 900px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+
+/*row-1
+*/
+@media (max-width: 1216px) {
+    .col-1-row-1{
+        width: 100%;
+    }
+    .col-3-row-1{
+        width: 25%;
+    }
+
+    .col-11-row-1{
+        width: 100%;
+    }
+
+    .filters{
+        text-align: center;
+    }
+   
+
+}
+
+@media (min-width: 800px) and (max-width: 1079px) {
+    .col-3-row-1{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 800px){
+    .col-3-row-1{
+        width: 100%;
+    }
+    .col-2-row-1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-8-row-1{
+        margin: auto;
+    }
+
+}
+/*row-1
+*/
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .col-1, .col-2,.col-4, .col-3, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11{
         width: 100%;
         margin: 0;
     }
+
+    .other-info{
+        height: 55vh;;
+    }
+
+    
 }
+
+@media (min-width: 901px) and (max-width: 1300px) {
+.col-9{
+        width: 100%;
+        margin: 0;
+    }
+
+.col-3{
+    width: 100%;
+    display: flex;
+}    
+}
+
+
+
+
 
 /*
 For Mobile
