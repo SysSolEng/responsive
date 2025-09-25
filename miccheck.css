@@ -13,6 +13,18 @@ Basic General Styling
 }
 
 
+.container-btns{
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+
+.notifications-hidden{
+    display: none;
+}
+
+
 
 
 
@@ -61,7 +73,9 @@ select{
     width: fit-content;
     margin-top: 10px;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 3px 2px;
+    font-size: 13px;
+
 }
 
 .btns{
@@ -69,7 +83,8 @@ select{
     width: fit-content;
     margin-top: 10px;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 3px 2px;
+    font-size: 13px;
 }
 /*      
 Basic General Styling
@@ -259,8 +274,9 @@ For Mobile
 @media (max-width: 1216px) {
     .col-1-row-1{
         width: 100%;
+        padding: 5px 5px;
     }
-    .col-3-row-1{
+     .col-3-row-1{
         width: 25%;
     }
 
@@ -283,17 +299,39 @@ For Mobile
 }
 
 @media (max-width: 800px){
-    .col-3-row-1{
-        width: 100%;
-    }
+     .col-3-row-1{
+        padding: 5px 5px;
+    } 
     .col-2-row-1{
         width: 100%;
         text-align: center;
+        padding: 5px 5px;
     }
 
     .col-8-row-1{
-        margin: auto;
+        /* margin: auto; */
+        width: 100%;
+        padding: 0;
     }
+
+    .col-11-row-1{
+        width: 100%;
+        padding: 0;
+    }
+
+    .the-labels{
+        font-size: 60%;
+    }
+
+
+    .notifications{
+        display: none;
+    }
+
+    .notifications-hidden{
+        display: inline;
+    }
+
 
 }
 /*row-1
